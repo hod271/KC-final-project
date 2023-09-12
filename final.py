@@ -1,10 +1,10 @@
 #welcome 
-name = input('what is your name ? ')
-print(f'hello {name}, :) please answer theese questions to find you a restaurant!')
+name = input('welcome user ! what is your name ? ')
+print(f'hello {name}, :) please answer these questions to find you a restaurant!')
 
 #restaurants
 restaurants = {
-    'pizza': {'pizza hut': '$','pizzaria':'$$','italian pizza':'$$$'},
+    'pizza': {'pizza hut': '$', 'dominos': '$','papa johns': '$','pizzaria':'$$','italian pizza':'$$$'},
     'burger': {'mcdonald,s':'$','elevation': '$$','gordon ramsey burger':'$$$'},
     'sushi': {'wasabi':'$','sushi mania':'$$','roka':'$$$'},
     'taco' : {'taco bell': '$', 'taco eataco': '$$', 'taco mex': '$$$'},
